@@ -3,7 +3,7 @@ package com.tech.methodlocalinner;
 public class Test {
 	static int x = 300;
     int a = 4000;
-	public static  void methodOne() {
+	public static void methodOne() {
 		class Inner{
 			public  void sum(int x,int y) {
 				System.out.println(Test.x);
