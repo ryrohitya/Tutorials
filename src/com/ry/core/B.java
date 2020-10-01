@@ -8,4 +8,7 @@ public interface B {
 		System.out.println("static method from m1");
 	}
 	public abstract void m3();
+	public default void m4() {
+		System.out.println("This is new default methhod");
+	}
 }
